@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "152f5c40-b3c7-4fd2-85dc-10af07d2cc73",
+		"name": "inalambria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/sale?provider_id=1&product_id=2&date1=2020-01-01&date2=2020-01-01",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "provider_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/sale?provider_id=1&product_id=2&date1=2020-01-01&date2=2020-01-01",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sale"
+					],
+					"query": [
+						{
+							"key": "provider_id",
+							"value": "1"
+						},
+						{
+							"key": "product_id",
+							"value": "2"
+						},
+						{
+							"key": "date1",
+							"value": "2020-01-01"
+						},
+						{
+							"key": "date2",
+							"value": "2020-01-01"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
